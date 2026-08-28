@@ -6,3 +6,4 @@
 #### 4. [Динамический массив. Списки. Деки](./3_4_Dinamic_array_Lists_Decks/README.md).
 #### 5. [Пирамиды и деревья поиска](./3_5_Pyramids_and_search_trees/README.md).
 #### 6. [Хеширование](./3_6_Hashing/README.md).
+#### 7. [Графы](./3_7_Counts/README.md).
