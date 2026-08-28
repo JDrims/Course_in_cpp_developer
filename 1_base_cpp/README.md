@@ -9,3 +9,4 @@
 #### 7. [Модель памяти и хранение данных](./1_07_memory_model_and_data_storage/README.md).
 #### 8. [Область видимости переменных и типы памяти. Пространства имён](./1_08_variable_scope_and_memory_types_Namespaces/README.md).
 #### 9. [Указатели. Массивы и параметры функций](./1_09_pointers_Arrays_and_function_parameters/README.md).
+#### 10. [Указатели. Динамическая память](./1_10_pointers_Dynamic_memory/README.md).
