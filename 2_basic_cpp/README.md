@@ -4,3 +4,4 @@
 #### 2. [Структуры и перечисления](./2_02_struct_and_enum/README.md).
 #### 3. [Классы и объекты](./2_03_class_and_object/README.md).
 #### 4. [ООП: абстракция и инкапсуляция](./2_04_OOP_abstraction_and_encapsulation/README.md).
+#### 5. [ООП: наследование и полиморфизм](./2_05_OOP_inheritance_and_polymorphism/README.md).
