@@ -7,3 +7,4 @@
 #### 5. [Пирамиды и деревья поиска](./3_5_Pyramids_and_search_trees/README.md).
 #### 6. [Хеширование](./3_6_Hashing/README.md).
 #### 7. [Графы](./3_7_Counts/README.md).
+#### 8. [Орграфы](./3_8_Orgraphs/README.md).
