@@ -11,3 +11,4 @@
 #### 9. [Перегрузка операторов](./2_09_operator_overload/README.md).
 #### 10. [CMake](./2_10_CMake/README.md).
 #### 11. [Сборка и подключение библиотек](./2_11_building_and_connecting_libraries/README.md).
+#### 12. [Тестирование и Unit-тесты](./2_12_Testing_and_Unit_tests/README.md).
