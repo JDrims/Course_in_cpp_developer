@@ -4,3 +4,4 @@
 #### 2. [Динамическое программирование и жадность](./3_2_Dinamic_prog_and_greed/README.md).
 #### 3. [Сортировки](./3_3_Sort/README.md).
 #### 4. [Динамический массив. Списки. Деки](./3_4_Dinamic_array_Lists_Decks/README.md).
+#### 5. [Пирамиды и деревья поиска](./3_5_Pyramids_and_search_trees/README.md).
