@@ -9,3 +9,4 @@
 #### 7. [Препроцессор и макросы](./2_07_preprocessor_and_macros/README.md).
 #### 8. [Исключения и обработка ошибок](./2_08_exceptions_and_error_handling/README.md).
 #### 9. [Перегрузка операторов](./2_09_operator_overload/README.md).
+#### 10. [CMake](./2_10_CMake/README.md).
