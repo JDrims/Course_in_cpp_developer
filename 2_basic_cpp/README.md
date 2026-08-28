@@ -7,3 +7,4 @@
 #### 5. [ООП: наследование и полиморфизм](./2_05_OOP_inheritance_and_polymorphism/README.md).
 #### 6. [Многофайловые проекты и библиотеки](./2_06_multi_file_projects_and_libraries/README.md).
 #### 7. [Препроцессор и макросы](./2_07_preprocessor_and_macros/README.md).
+#### 8. [Исключения и обработка ошибок](./2_08_exceptions_and_error_handling/README.md).
