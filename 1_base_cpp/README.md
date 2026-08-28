@@ -11,3 +11,4 @@
 #### 9. [Указатели. Массивы и параметры функций](./1_09_pointers_Arrays_and_function_parameters/README.md).
 #### 10. [Указатели. Динамическая память](./1_10_pointers_Dynamic_memory/README.md).
 #### 11. [Строки](./1_11_lines/README.md).
+#### 12. [Работа с файлами](./1_12_working_with_files/README.md).
