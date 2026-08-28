@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="../DynamicLib/DynamicLib.vcxproj" Id="bc51c95a-f8de-45d6-9be8-00c60339bc63" />
+  <Project Path="Program.vcxproj" Id="44f562e1-b271-4a67-a6bf-08afe992b83b" />
+</Solution>
