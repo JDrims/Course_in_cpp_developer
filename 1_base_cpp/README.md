@@ -5,3 +5,4 @@
 #### 3. [Операторы ветвления. Логические операции](./1_03_branching_operators_Logical_operations/README.md).
 #### 4. [Циклические конструкции](./1_04_cyclic_constructions/README.md).
 #### 5. [Массивы](./1_05_array/README.md).
+#### 6. [Функции и их параметры. Рекурсия](./1_06_fun_and_param_Recursion/README.md).
