@@ -1,2 +1,11 @@
 .vscode/
+.vs/
+x64/
+x86/
+Debug/
+Release/
+out/
 build/
+
+*.vcxproj.filters
+*.vcxproj.user
