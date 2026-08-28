@@ -3,3 +3,4 @@
 #### 1. [IDE](./2_01_IDE/README.md).
 #### 2. [Структуры и перечисления](./2_02_struct_and_enum/README.md).
 #### 3. [Классы и объекты](./2_03_class_and_object/README.md).
+#### 4. [ООП: абстракция и инкапсуляция](./2_04_OOP_abstraction_and_encapsulation/README.md).
