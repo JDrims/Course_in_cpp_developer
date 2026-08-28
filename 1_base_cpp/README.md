@@ -7,3 +7,4 @@
 #### 5. [Массивы](./1_05_array/README.md).
 #### 6. [Функции и их параметры. Рекурсия](./1_06_fun_and_param_Recursion/README.md).
 #### 7. [Модель памяти и хранение данных](./1_07_memory_model_and_data_storage/README.md).
+#### 8. [Область видимости переменных и типы памяти. Пространства имён](./1_08_variable_scope_and_memory_types_Namespaces/README.md).
