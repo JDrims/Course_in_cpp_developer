@@ -8,6 +8,6 @@
 #### 5. [STL. Часть 1](./4_5_STL_Part_1/README.md).
 #### 6. [STL. Часть 2](./4_6_STL_Part_2/README.md).
 #### 7. [Умные указатели](./4_7_Smart_pointers/README.md).
-#### 8. [Move семантика]().
+#### 8. [Move семантика](./4_8_Move_semantics/README.md).
 
 ### [Курсовой проект «Парсер INI-файлов»]().
