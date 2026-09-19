@@ -5,7 +5,7 @@
 #### 2. [Жизненный цикл объекта. RAII](./4_2_Object_lifecycle_RAII/README.md).
 #### 3. [Тестирование](./4_3_Testing/README.md).
 #### 4. [Шаблоны и функторы](./4_4_Templates_and_functors/README.md).
-#### 5. [STL. Часть 1]().
+#### 5. [STL. Часть 1](./4_5_STL_Part_1/README.md).
 #### 6. [STL. Часть 2]().
 #### 7. [Умные указатели]().
 #### 8. [Move семантика]().

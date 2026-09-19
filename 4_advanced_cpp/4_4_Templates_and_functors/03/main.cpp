@@ -16,7 +16,6 @@ class Counter
 {
     int sum = 0;
     int count = 0;
-    std::vector<int> vec;
 
 public:
     void operator()(int value)
