@@ -10,4 +10,4 @@
 #### 7. [Умные указатели](./4_7_Smart_pointers/README.md).
 #### 8. [Move семантика](./4_8_Move_semantics/README.md).
 
-### [Курсовой проект «Парсер INI-файлов»]().
+### [Курсовой проект «Парсер INI-файлов»](./CP_INI_File_Parser/README.md).

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdexcept>
 
 template <typename T>
 class MyUniquePtr
@@ -13,9 +14,20 @@ public:
         delete ptr;
     }
 
-    T &operator*() const { return *ptr; }
-    MyUniquePtr(const MyUniquePtr &) = delete;
-    MyUniquePtr &operator=(const MyUniquePtr &) = delete;
+    T &operator*() const
+    {
+        if (ptr == nullptr)
+            throw std::runtime_error("MyUniquePtr nullptr");
+        return *ptr;
+    }
+    T *operator->() const
+    {
+        if (ptr == nullptr)
+            throw std::runtime_error("MyUniquePtr nullptr");
+        return ptr;
+    }
+    MyUniquePtr(const MyUniquePtr &myUniquePtr) = delete;
+    MyUniquePtr &operator=(const MyUniquePtr &myUniquePtr) = delete;
 
     T *release()
     {
@@ -27,14 +39,22 @@ public:
 
 int main()
 {
-    MyUniquePtr<int> p(new int(100));
-    std::cout << *p << std::endl;
+    try
+    {
+        MyUniquePtr<int> p(new int(100));
+        std::cout << *p << std::endl;
 
-    *p = 101;
-    std::cout << *p << std::endl;
+        *p = 101;
+        std::cout << *p << std::endl;
 
-    int *old = p.release();
-    delete old;
+        int *old = p.release();
+        std::cout << *p << std::endl;
+        delete old;
+    }
+    catch (const std::exception &e)
+    {
+        std::cerr << e.what() << std::endl;
+    }
 
     return 0;
 }
