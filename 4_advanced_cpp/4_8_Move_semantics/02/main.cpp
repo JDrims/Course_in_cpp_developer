@@ -58,10 +58,10 @@ public:
 
         for (int i = a.size() - 1; i >= 0; --i)
         {
-            for (int j = b.size(); j >= 0; --j)
+            for (int j = b.size() - 1; j >= 0; --j)
             {
                 int digitalA = a[i] - '0';
-                int digitalB = a[j] - '0';
+                int digitalB = b[j] - '0';
 
                 int mult = digitalA * digitalB + result[i + j + 1];
 
