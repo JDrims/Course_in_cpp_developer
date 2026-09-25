@@ -12,12 +12,12 @@ public:
     MyBigInteger(std::string value) : value(value) {}
     ~MyBigInteger() {}
 
-    MyBigInteger(MyBigInteger &&other) : value(std::move(other.value))
+    MyBigInteger(MyBigInteger &&other) noexcept : value(std::move(other.value)) 
     {
         other.value.clear();
     }
 
-    MyBigInteger &operator=(MyBigInteger &&other)
+    MyBigInteger &operator=(MyBigInteger &&other) noexcept
     {
         if (this != &other)
         {
