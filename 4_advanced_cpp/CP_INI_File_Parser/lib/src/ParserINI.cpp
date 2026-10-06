@@ -1,4 +1,5 @@
 #include "ParserINI.h"
+#include "Constants.h"
 
 #include <algorithm>
 #include <iostream>
@@ -34,25 +35,25 @@ void ParserINI::readFile()
         std::getline(file, line);
 
         line.erase(std::find_if(line.begin(), line.end(), [](char c)
-                                { return c == ';'; }),
+                                { return c == IniSymbols::CommentSymbol; }),
                    line.end());
 
         line = trim(line);
 
-        if (line.empty() || line[0] == ';')
+        if (line.empty() || line[0] == IniSymbols::CommentSymbol)
             continue;
 
-        if (line[0] == '[')
+        if (line[0] == IniSymbols::SectionOpen)
         {
-            if (line.find(']') == std::string::npos)
+            if (line.find(IniSymbols::SectionClose) == std::string::npos)
                 throw ini_syntax_error(numLines, "не закрыта скобка секции");
 
-            if (line.find(']') != line.length() - 1)
+            if (line.find(IniSymbols::SectionClose) != line.length() - 1)
                 throw ini_syntax_error(numLines, "лишние символы после скобки");
 
             nameSection = line;
             nameSection.erase(std::remove_if(nameSection.begin(), nameSection.end(), [](char c)
-                                             { return c == '[' || c == ']'; }),
+                                             { return c == IniSymbols::SectionOpen || c == IniSymbols::SectionClose; }),
                               nameSection.end());
             nameSection = trim(nameSection);
             if (nameSection.empty())
@@ -62,10 +63,10 @@ void ParserINI::readFile()
 
             data_struct[nameSection];
         }
-        else if (line.find('=') != std::string::npos)
+        else if (line.find(IniSymbols::EqualSymbol) != std::string::npos)
         {
-            std::string key = line.substr(0, line.find('='));
-            std::string value = line.substr(line.find('=') + 1);
+            std::string key = line.substr(0, line.find(IniSymbols::EqualSymbol));
+            std::string value = line.substr(line.find(IniSymbols::EqualSymbol) + 1);
 
             key = trim(key);
             value = trim(value);

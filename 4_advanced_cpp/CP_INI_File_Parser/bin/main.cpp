@@ -34,6 +34,14 @@ int main()
     {
         std::cerr << "Ошибка парсера: " << e.what() << "\n";
     }
+    catch (const std::exception &e)
+    {
+        std::cerr << "Стандартное исключение: " << e.what() << "\n";
+    }
+    catch (...)
+    {
+        std::cerr << "Неизвестная ошибка (не исключение)\n";
+    }
 
     return 0;
 }

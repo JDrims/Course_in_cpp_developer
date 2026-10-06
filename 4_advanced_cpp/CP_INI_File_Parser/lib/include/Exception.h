@@ -1,3 +1,5 @@
+#pragma once
+
 #include <stdexcept>
 #include <string>
 #include <vector>
@@ -8,6 +10,11 @@ class ini_error : public std::runtime_error
 public:
     explicit ini_error(const std::string &message)
         : std::runtime_error(message) {}
+
+    virtual const char *what() const noexcept override
+    {
+        return std::runtime_error::what();
+    }
 };
 
 class ini_file_error : public ini_error
